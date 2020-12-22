@@ -6,13 +6,13 @@ long long po(long long a,long long b)
 }
 long long prime(long long a)
 {     for(long long i=1; i*i<=a; i++)
-          {   if(a%i==0) return 1;  }
-       return 0;
+          {   if(a%i==0) return 1LL;  }
+       return 0LL;
 }
 void phi(long long  n)
 {
    long long i,mul=1,holder,fre=0;
-   if(prime(n)==0) mul=n-1;
+   if(prime(n)==0LL) mul=n-1;
    else
  {
      for(i=2; i*i<=n; i++)
