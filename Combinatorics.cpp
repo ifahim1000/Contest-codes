@@ -30,3 +30,8 @@ namespace Combi {
        }
     }
 }
+
+main()
+{
+    Combi::init();
+}
